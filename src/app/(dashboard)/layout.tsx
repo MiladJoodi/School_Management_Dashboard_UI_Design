@@ -9,7 +9,7 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="h-screen flex">
+    <div className="flex">
       {/* Left */}
       <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4">
         <Link
